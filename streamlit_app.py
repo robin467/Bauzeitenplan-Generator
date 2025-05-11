@@ -7,14 +7,6 @@ from datetime import datetime, timedelta, date, time
 import plotly.express as px
 from PIL import Image
 
-# Passwortschutz
-st.sidebar.markdown("### 🔐 Login")
-password = st.sidebar.text_input("Passwort", type="password")
-
-if password != "Uniplan2025":  # <-- Hier dein Wunschpasswort
-    st.warning("Bitte Passwort eingeben.")
-    st.stop()
-    
 # PDF export imports
 try:
     from reportlab.pdfgen import canvas
