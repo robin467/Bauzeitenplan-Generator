@@ -4,3 +4,4 @@ plotly-express
 pillow
 reportlab
 openpyxl 
+kaleido
