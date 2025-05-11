@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.venv/
+*.csv  # falls du lokal test-Output nicht mitpushen möchtest
